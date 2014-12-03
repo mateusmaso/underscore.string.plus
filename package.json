@@ -1,7 +1,7 @@
 {
   "name": "underscore.string.plus",
   "description": "Underscore helper for additional methods to string library",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "mateusmaso",
   "keywords": ["underscore", "javascript", "string", "plus"],
   "devDependencies": {
