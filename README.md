@@ -1,5 +1,6 @@
 underscore.string.plus [![Build Status](https://travis-ci.org/mateusmaso/underscore.string.plus.svg?branch=master)](https://travis-ci.org/mateusmaso/underscore.string.plus)
 ======================
+
 This library is an extension for Underscore which provides more useful methods to the string library.
 
 ## Features
@@ -8,8 +9,8 @@ This library is an extension for Underscore which provides more useful methods t
 
 ## Dependencies
 
-* underscore.js (>= 1.5)
-  * underscore.string
+* underscore.js (>= 1.5.0)
+  * underscore.string (>= 2.3.3)
 
 ## Node
 
