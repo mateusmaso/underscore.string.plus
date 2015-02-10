@@ -1,8 +1,8 @@
 // underscore.string.plus
 // ----------------------
-// v0.1.1
+// v0.1.2
 //
-// Copyright (c) 2014 Mateus Maso
+// Copyright (c) 2015 Mateus Maso
 // Distributed under MIT license
 //
 // http://github.com/mateusmaso/underscore.string.plus
@@ -39,10 +39,14 @@
         if (!sentence){
           sentence = complement;
           complement = null;
+        } else {
+          sentence = sentence[0];
         }
+      } else {
+        sentence = sentence[0];
       }
 
-      return [sentence[0], complement];
+      return [sentence || "", complement || ""];
     },
 
     isUrl: function(string) {

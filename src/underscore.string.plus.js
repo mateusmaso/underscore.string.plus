@@ -30,10 +30,14 @@
         if (!sentence){
           sentence = complement;
           complement = null;
+        } else {
+          sentence = sentence[0];
         }
+      } else {
+        sentence = sentence[0];
       }
 
-      return [sentence[0], complement];
+      return [sentence || "", complement || ""];
     },
 
     isUrl: function(string) {
