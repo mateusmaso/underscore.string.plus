@@ -9,8 +9,8 @@ This library is an extension for Underscore which provides more useful methods t
 
 ## Dependencies
 
-* underscore.js (>= 1.5.0)
-  * underscore.string (>= 2.3.3)
+* underscore.js (>= 1.8.3)
+  * underscore.string (>= 3.3.4)
 
 ## Node
 
@@ -30,4 +30,4 @@ _.string.splitInTwoSentences("Hello. World") == ["Hello. ", "World"] // true
 
 ## License
 
-Copyright (c) 2013-2014 Mateus Maso. Released under an MIT license.
+Copyright (c) 2013-2016 Mateus Maso. Released under an MIT license.
