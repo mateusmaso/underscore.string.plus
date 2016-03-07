@@ -1,8 +1,8 @@
 // underscore.string.plus
 // ----------------------
-// v0.1.2
+// v0.1.3
 //
-// Copyright (c) 2015 Mateus Maso
+// Copyright (c) 2016 Mateus Maso
 // Distributed under MIT license
 //
 // http://github.com/mateusmaso/underscore.string.plus
