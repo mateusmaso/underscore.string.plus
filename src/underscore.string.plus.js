@@ -6,8 +6,7 @@
       module.exports = factory(_);
     exports = factory(_);
   } else {
-    root._.string = root._.string || s.exports();
-    root._.extend(root._.string, factory(root._));
+    root._.extend(root.s, factory(root._));
   }
 
 }(this, function(_) {

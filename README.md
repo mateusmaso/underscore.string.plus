@@ -16,16 +16,16 @@ This library is an extension for Underscore which provides more useful methods t
 
 ```javascript
 var _ = require("underscore");
-_.string = _.str = require('underscore.string');
-_.extend(_.string, require('../src/underscore.string.plus'));
+var s = require('underscore.string');
+_.extend(s, require('../src/underscore.string.plus'));
 ```
 
 ## Examples
 
 ```javascript
-_.string.lowerize("FooBar") == "fooBar" // true
-_.string.isUrl("http://www.foo.bar") == true // true
-_.string.splitInTwoSentences("Hello. World") == ["Hello. ", "World"] // true
+s.lowerize("FooBar") == "fooBar" // true
+s.isUrl("http://www.foo.bar") == true // true
+s.splitInTwoSentences("Hello. World") == ["Hello. ", "World"] // true
 ```
 
 ## License

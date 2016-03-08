@@ -1,6 +1,6 @@
 // underscore.string.plus
 // ----------------------
-// v0.1.4
+// v0.2.0
 //
 // Copyright (c) 2016 Mateus Maso
 // Distributed under MIT license
@@ -15,8 +15,7 @@
       module.exports = factory(_);
     exports = factory(_);
   } else {
-    root._.string = root._.string || s.exports();
-    root._.extend(root._.string, factory(root._));
+    root._.extend(root.s, factory(root._));
   }
 
 }(this, function(_) {
